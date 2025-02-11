@@ -1,3 +1,0 @@
-# CITC 1300 ASHTON WEB DESIGN
-
-<a href="INTROTOHTML/MISITE.html">Intro TO HTML</a>
