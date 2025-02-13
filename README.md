@@ -1,5 +1,7 @@
 # CITC 1300 Project Page
 
-<a href="htmlintro/firstsite.html">Link to First Site</a>
-<a href="actualHTML/MISITE.html">Link to MISITE</a>
-
+<ul>
+ <li><a href="htmlintro/firstsite.html">Link to First Site</a></li>
+ <li><a href="actualHTML/MISITE.html">Link to MISITE</a></li>
+ <li><a href="adv_css/MISITE.html"> Link to Adv. Site</a></li>
+</ul>
