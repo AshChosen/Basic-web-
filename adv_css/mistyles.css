@@ -1,166 +1,129 @@
+/* Global Styles */
+
 body {
-    background-color: white;
-    color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #container {
-    background-color: rgb(3, 3, 4);
-    width: 65%;
-    margin: 20px auto;
-    padding: 20px;
-    border:2px solid #000000;
-    border-radius: 20px;
-}
-
-#banner {
-    width: 100%;
-    border-radius: 15px;
-    height: auto;
-}
-
-#col1 {
-    width: 60%; /* Adjust the width as needed */
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid #000000;
-}
-
-#col2 {
-    width: 35%; /* Adjust the width as needed */
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid #000;
-}
-
-.main-header{
-    text-shadow: #fffcfc 2px 2px 2px;
-    text-align: center;
-    font-size: 50px;
-}
-
-.heading_style {
-    text-shadow: 2px 2px 2px #11ff00;
-    text-align: center;
-}
-
-.heading_style_2 {
-    text-shadow: 2px 2px 2px #11ff00;
-    text-align: center;
-    font-size: 50px;
-    color: white;
-
-}
-
-.heading_style_3 {
-    text-shadow: 2px 2px 2px #11ff00;
-    
-    
-
-}
-
-.and_copy {
-    text-align: center;
-}
-
-.game_post {
-    width: 100%;
-    border-radius: 20px;
-}   
-
-
-    
-
-img{
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-}
-
-header{
-    padding: 5x;
-    text-align:center ;
-}
-
-header h1 {
-    color: rgb(0, 0, 0);
-    font-weight:bold;
-    font-size: 24px;
-    border-bottom: 2px solid #000;
-    padding: 10px;
-}
-
-nav{
-    text-align: center;
-    margin:20px 0;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-
-}
-
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    
-}
-
-nav li{
-    display: inline-block;
-}
-nav li a{
-    display: block;
-    color: rgb(0, 0, 0);
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 0 20px;
-    padding: 10px 20px; 
-    width: auto; 
-    line-height: normal;
-    border-radius: 15px;
-}
-
-nav a:hover{
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
-#twocol {
-    display: flex;
+/* mobile Styles */
+@media (min-width : 320px) {
     
+    nav {
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        margin-top: 8 px;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    
+    }
+    nav li {
+        display: block;
+    }
+    nav li a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        background-color: #000000;
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+        margin-top: 5px;
+        border-radius: 15px;
+        
+    }
+    nav li a:hover {
+        background-color: rgb(47, 255, 99);
+        color: white;
+    }
+    .game_post {
+        width: 80%;
+        border-radius: 10px;
+    }
+    main {
+        padding: 20px;
+
+    }
+    h1, h2, h3 {
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 1px rgb(158, 158, 158);
+        
+    }
+    footer {
+        text-align: center;
+        padding: 40px;
+        
+    }
 }
 
-main img {
-    display: block;
-    margin: 20px auto;
-    width: 100%; 
-    max-width: 600px; 
-    border-radius: 10px;
+/* tablet Styles */
+@media (min-width : 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    
+    nav li a {
+        width: 125px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+
+    }
+
+    .game_post {
+        width: 50%;
+        border-radius: 10px;
+    }
+
 }
 
-footer {
-    padding: 40px;
-    text-align: center;
-}
-.footer-links {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0;
-    margin: 0;
-    text-align: center;}
+/* desktop Styles */
+@media (min-width : 1024px) {
+    #container {
+        width: 65%;
+        margin: 020px auto;
+        border: 4px solid black;
+        border-radius: 20px;
 
-.footer-links a:link {
-    color: white; /* Color of unvisited links */
-    text-decoration: none;
-}
+    }
+    nav {
+        padding: 2px solid;
+        margin: 0;
 
-.footer-links a:visited {
-    color: white; /* Color of visited links */
-}
+        
+    }
+    nav li a {
+        background-color: black;
+    }
+    hr {
+        display: none;
+    }
 
-.footer-links a:hover {
-    color: lightgray; /* Color when hovering over links */
-    text-decoration: underline;
-}
+    #multi-col {
+        display: flex;
+    }
 
-.footer-links a:active {
-    color: green; /* Color when the link is clicked */
+    .col {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid;
+
+    }
+   
+
+
 }
