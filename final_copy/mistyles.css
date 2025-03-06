@@ -8,6 +8,18 @@ body {
     background-attachment: fixed;
 }
 
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.video-responsive {
+    width: 100%;
+    max-width: 30%;
+    margin: 10px;
+}
 
 p {
     font-family: "New Rocker", system-ui;
