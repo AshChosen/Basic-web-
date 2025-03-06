@@ -1,8 +1,11 @@
 body {
-    background-color: rgb(255, 255, 255);
+    
     color: white;
     font-family: "New Rocker", system-ui;
-    
+    background-image: url('images333/okspace.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
